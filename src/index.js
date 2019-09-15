@@ -6,8 +6,8 @@ global.reposPath = process.argv[2];
 
 const app = express();
 
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use('/api', router);
 
 app.use((req, res) => {
