@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js /Users/user/Desktop/coding",
+    "start": "nodemon src/index.js /media/vitaliy/'Новый том'/Coding",
     "build": "babel src -d dist",
     "serve": "node dist/index.js"
   },
