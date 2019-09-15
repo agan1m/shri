@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js F:\\Coding",
+    "start": "nodemon src/index.js /Users/user/Desktop/coding",
     "build": "babel src -d dist",
     "serve": "node dist/index.js"
   },
